@@ -1,0 +1,13 @@
+
+=====.gitignore=====
+
+
+
+=====SEGUIMIENTO DE VERSIONADO=====
+git rm --cached -r *.pyc adminSite/db.sqlite3
+    | (--cached) le dice a Git que elimine solo del seguimiento, no del local
+    | (-r) es para eliminar recursivamente si hay multiples, en este caso *.pyc
+    | Para finalizar, se realiza un commit para regsitrar los cambios
+
+=====RAMAS (branch)=====
+
