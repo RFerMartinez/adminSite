@@ -1,3 +1,11 @@
+# Django imports
 from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+# Projects imports
+
+# Python imports
+
+# -------------------------------------------------
+def myFirstView(request):
+    return HttpResponse('hola')
