@@ -1,0 +1,23 @@
+LISTAR
+<model>.objects.all()
+
+INSERTAR
+<nodel>(attr='str').save()
+
+EDITAR
+obj = <model>.objects.get(id=int, attr='str)
+obj.attr = "valorCambiado"
+obj.save()
+
+ELIMINAR
+<model>.objects.get(id=int).delete()
+
+
+FILTRAR
+obj = <model>.object.filter(...)
+                            attr__contains='str' -> devuelve los que coincide con la cadena
+                            attr__icontains='str'
+                            attr__startswith='str' -> devuelve los que empiezan con...
+                            attr__exact='value'
+                            attr__in=['abc', 'dfg'] -> devuelve los que se encuentre entree sos rangos
+                        
